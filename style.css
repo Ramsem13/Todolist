@@ -15,10 +15,12 @@
     width: 300px;
     display: flex;
     height: 2rem;
+    border: .4px solid rgb(155, 153, 153);
+    border-radius: 4px;
  }
 #task-input{
    flex: 1;
-   border: .4px solid black;
+   border: transparent;
    border-right:transparent ;
    border-top-left-radius: 4px;
    border-bottom-left-radius:4px ;
@@ -26,8 +28,21 @@
 }
 #add-btn{
    background-color: blueviolet;
+   color: white;
+   font-weight: bolder;
    border-top-right-radius: 4px;
    border-bottom-right-radius:4px ;
-    border-left:transparent ;
+   border: transparent;
     padding: 5px;
 }
+ul{
+   padding: 10px;
+}
+ul li{
+   margin-top: 4px;
+   background-color: rgb(255, 255, 255);
+   border: .4px solid black;
+   width: 400px;
+   display: flex;
+   justify-content: space-between;
+}  
